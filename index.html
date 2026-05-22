@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ridge Runner Timber & Tree LLC | Professional Tree Service in Springfield, MO</title>
+  <meta name="description" content="Ridge Runner Timber & Tree LLC provides professional tree trimming, removal, storm cleanup, land clearing, logging, and timber buying services in Springfield, Nixa, Branson, and Southwest Missouri. Available 24/7. Call (417) 597-4745.">
+  <meta name="keywords" content="tree service Springfield MO, tree removal, tree trimming, land clearing, logging, timber buying, storm cleanup, stump grinding, Springfield Missouri tree company">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ridgerunnertimber.com">
+
+  <meta property="og:title" content="Ridge Runner Timber & Tree LLC | Springfield, MO Tree Service">
+  <meta property="og:description" content="Professional tree service and timber solutions for Southwest Missouri. 24/7 emergency service available. Call (417) 597-4745.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: {
+              50: '#f0f7f2',
+              100: '#dceee1',
+              200: '#b9ddc3',
+              300: '#8ac49e',
+              400: '#5aa878',
+              500: '#3a8d5c',
+              600: '#2a7148',
+              700: '#225b3b',
+              800: '#1d4930',
+              900: '#1a3c28',
+              950: '#0d2116',
+            },
+            timber: {
+              50: '#fdf8f0',
+              100: '#f5e6cc',
+              200: '#ebd09f',
+              300: '#ddb36a',
+              400: '#d49a42',
+              500: '#c8860a',
+              600: '#a66e08',
+              700: '#845609',
+              800: '#6b450e',
+              900: '#593a10',
+            },
+            bark: {
+              50: '#f7f4f2',
+              100: '#ece5df',
+              200: '#d9cbbf',
+              300: '#c0a994',
+              400: '#a98c70',
+              500: '#957858',
+              600: '#7e6349',
+              700: '#664f3c',
+              800: '#554234',
+              900: '#49392e',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Playfair Display', 'Georgia', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    [x-cloak] { display: none !important; }
+
+    .hero-bg {
+      background: linear-gradient(165deg, rgba(13, 33, 22, 0.92) 0%, rgba(26, 60, 40, 0.85) 50%, rgba(13, 33, 22, 0.90) 100%),
+                  url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%231a3c28"/><circle cx="200" cy="400" r="300" fill="%23225b3b" opacity="0.3"/><circle cx="900" cy="300" r="350" fill="%231d4930" opacity="0.25"/></svg>');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .fade-up {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .fade-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(26, 60, 40, 0.12);
+    }
+
+    .service-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .cta-pulse {
+      animation: pulse-ring 2s ease-out infinite;
+    }
+
+    @keyframes pulse-ring {
+      0% { box-shadow: 0 0 0 0 rgba(200, 134, 10, 0.4); }
+      70% { box-shadow: 0 0 0 12px rgba(200, 134, 10, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(200, 134, 10, 0); }
+    }
+
+    .nav-scrolled {
+      background: rgba(13, 33, 22, 0.97) !important;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+    }
+
+    .timber-gradient {
+      background: linear-gradient(135deg, #1a3c28 0%, #225b3b 100%);
+    }
+
+    .gold-text {
+      background: linear-gradient(135deg, #d49a42 0%, #c8860a 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    html {
+      scroll-padding-top: 80px;
+    }
+
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(200, 134, 10, 0.3);
+    }
+
+    .tree-pattern {
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231a3c28' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://ridgerunnertimber.com",
+    "name": "Ridge Runner Timber & Tree LLC",
+    "description": "Professional tree service, timber buying, logging, and land clearing in Southwest Missouri.",
+    "telephone": "+1-417-597-4745",
+    "url": "https://ridgerunnertimber.com",
+    "areaServed": [
+      {"@type": "City", "name": "Springfield", "addressRegion": "MO"},
+      {"@type": "City", "name": "Nixa", "addressRegion": "MO"},
+      {"@type": "City", "name": "Branson", "addressRegion": "MO"},
+      {"@type": "City", "name": "Ozark", "addressRegion": "MO"},
+      {"@type": "City", "name": "Republic", "addressRegion": "MO"}
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Springfield",
+      "addressRegion": "MO",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "4",
+      "bestRating": "5"
+    },
+    "priceRange": "$$",
+    "image": "",
+    "sameAs": []
+  }
+  </script>
+</head>
+
+<body class="font-sans text-gray-800 antialiased">
+
+  <!-- Top Bar -->
+  <div class="bg-forest-950 text-white text-sm hidden md:block">
+    <div class="max-w-7xl mx-auto px-6 py-2 flex justify-between items-center">
+      <div class="flex items-center gap-6">
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-timber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          24/7 Emergency Service Available
+        </span>
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-timber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          Serving Springfield, MO &amp; Surrounding Areas
+        </span>
+      </div>
+      <a href="tel:+14175974745" class="flex items-center gap-2 hover:text-timber-400 transition-colors font-medium">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        (417) 597-4745
+      </a>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="sticky top-0 z-50 bg-forest-900/95 backdrop-blur-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-center justify-between h-18 py-3">
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 bg-timber-500 rounded-lg flex items-center justify-center group-hover:bg-timber-400 transition-colors">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 3v2M15 3v2"/></svg>
+          </div>
+          <div class="leading-tight">
+            <span class="text-white font-bold text-lg tracking-tight block">Ridge Runner</span>
+            <span class="text-timber-400 text-xs font-medium tracking-widest uppercase">Timber & Tree</span>
+          </div>
+        </a>
+
+        <!-- Desktop Nav -->
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="#services" class="text-white/80 hover:text-timber-400 transition-colors text-sm font-medium">Services</a>
+          <a href="#about" class="text-white/80 hover:text-timber-400 transition-colors text-sm font-medium">About</a>
+          <a href="#timber" class="text-white/80 hover:text-timber-400 transition-colors text-sm font-medium">We Buy Timber</a>
+          <a href="#areas" class="text-white/80 hover:text-timber-400 transition-colors text-sm font-medium">Service Areas</a>
+          <a href="#reviews" class="text-white/80 hover:text-timber-400 transition-colors text-sm font-medium">Reviews</a>
+          <a href="#contact" class="text-white/80 hover:text-timber-400 transition-colors text-sm font-medium">Contact</a>
+        </div>
+
+        <!-- CTA -->
+        <div class="flex items-center gap-4">
+          <a href="tel:+14175974745" class="hidden sm:flex items-center gap-2 bg-timber-500 hover:bg-timber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-all cta-pulse text-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            Call Now
+          </a>
+
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-btn" class="lg:hidden text-white p-2" aria-label="Open menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-forest-950 border-t border-forest-800">
+      <div class="px-6 py-4 space-y-3">
+        <a href="#services" class="block text-white/80 hover:text-timber-400 transition-colors text-sm font-medium py-2">Services</a>
+        <a href="#about" class="block text-white/80 hover:text-timber-400 transition-colors text-sm font-medium py-2">About</a>
+        <a href="#timber" class="block text-white/80 hover:text-timber-400 transition-colors text-sm font-medium py-2">We Buy Timber</a>
+        <a href="#areas" class="block text-white/80 hover:text-timber-400 transition-colors text-sm font-medium py-2">Service Areas</a>
+        <a href="#reviews" class="block text-white/80 hover:text-timber-400 transition-colors text-sm font-medium py-2">Reviews</a>
+        <a href="#contact" class="block text-white/80 hover:text-timber-400 transition-colors text-sm font-medium py-2">Contact</a>
+        <a href="tel:+14175974745" class="flex items-center justify-center gap-2 bg-timber-500 text-white font-semibold px-5 py-3 rounded-lg mt-4 text-sm">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          (417) 597-4745
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-bg relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-forest-950/50 to-transparent"></div>
+    <div class="relative max-w-7xl mx-auto px-6 py-24 md:py-32 lg:py-40">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 bg-timber-500/20 border border-timber-500/30 rounded-full px-4 py-1.5 mb-6">
+          <span class="w-2 h-2 bg-timber-400 rounded-full animate-pulse"></span>
+          <span class="text-timber-300 text-sm font-medium">24/7 Emergency Service Available</span>
+        </div>
+
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white leading-tight mb-6">
+          From One Tree to<br>
+          <span class="gold-text">Full Land Clearing</span>
+        </h1>
+
+        <p class="text-lg md:text-xl text-white/75 mb-10 max-w-xl leading-relaxed">
+          Southwest Missouri's trusted tree service and timber experts. Professional results, fair prices, and honest service you can count on.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="tel:+14175974745" class="inline-flex items-center justify-center gap-3 bg-timber-500 hover:bg-timber-600 text-white font-bold px-8 py-4 rounded-xl transition-all text-lg cta-pulse shadow-lg shadow-timber-500/25">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            Call (417) 597-4745
+          </a>
+          <a href="#contact" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-xl transition-all border border-white/20 text-lg backdrop-blur-sm">
+            Get a Free Estimate
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+
+        <!-- Trust Indicators -->
+        <div class="flex flex-wrap gap-6 mt-12 pt-8 border-t border-white/10">
+          <div class="flex items-center gap-2">
+            <div class="flex text-timber-400">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span class="text-white/70 text-sm">5.0 Rating on Google</span>
+          </div>
+          <div class="flex items-center gap-2 text-white/70 text-sm">
+            <svg class="w-5 h-5 text-timber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            Fully Insured
+          </div>
+          <div class="flex items-center gap-2 text-white/70 text-sm">
+            <svg class="w-5 h-5 text-timber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Free Estimates
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Decorative Bottom -->
+    <div class="absolute bottom-0 left-0 right-0">
+      <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full"><path d="M0 60V30C240 0 480 0 720 30C960 60 1200 60 1440 30V60H0Z" fill="white"/></svg>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="bg-white py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center fade-up">
+          <div class="w-14 h-14 bg-forest-50 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-7 h-7 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg">24/7 Service</h3>
+          <p class="text-gray-500 text-sm mt-1">Always available when<br>you need us most</p>
+        </div>
+        <div class="text-center fade-up">
+          <div class="w-14 h-14 bg-forest-50 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-7 h-7 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg">Fully Insured</h3>
+          <p class="text-gray-500 text-sm mt-1">Complete coverage for<br>your protection</p>
+        </div>
+        <div class="text-center fade-up">
+          <div class="w-14 h-14 bg-forest-50 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-7 h-7 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg">Fair Prices</h3>
+          <p class="text-gray-500 text-sm mt-1">Honest, upfront pricing<br>with free estimates</p>
+        </div>
+        <div class="text-center fade-up">
+          <div class="w-14 h-14 bg-forest-50 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-7 h-7 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg">Locally Owned</h3>
+          <p class="text-gray-500 text-sm mt-1">Proudly serving<br>Southwest Missouri</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 md:py-28 bg-gray-50 tree-pattern">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-up">
+        <span class="inline-block text-timber-600 font-semibold text-sm tracking-widest uppercase mb-3">What We Do</span>
+        <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">Complete Tree &amp; Timber Services</h2>
+        <p class="text-gray-500 text-lg">Whether you need a single branch trimmed or an entire lot cleared, we have the equipment and expertise to get the job done right.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Service Card 1 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Tree Trimming &amp; Pruning</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Keep your trees healthy and your property looking great with professional trimming and shaping services.</p>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Tree Removal</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Safe, efficient removal of hazardous, dead, or unwanted trees of any size from your property.</p>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Storm Damage Cleanup</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Fast response when storms hit. We clear downed trees, broken limbs, and debris to restore your property.</p>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Land Clearing</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Full lot clearing for construction, agriculture, or development. From brush to full timber removal.</p>
+        </div>
+
+        <!-- Service Card 5 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Logging</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Professional timber harvesting with the right equipment for responsible, efficient logging operations.</p>
+        </div>
+
+        <!-- Service Card 6 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Stump Grinding</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Remove unsightly stumps and reclaim your yard space with professional stump grinding services.</p>
+        </div>
+
+        <!-- Service Card 7 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Landscaping</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Transform your outdoor space with professional landscaping, grading, and property maintenance.</p>
+        </div>
+
+        <!-- Service Card 8 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Bulldozing</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Heavy equipment services for site prep, grading, road building, and property development projects.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-12 fade-up">
+        <a href="#contact" class="inline-flex items-center gap-2 bg-forest-700 hover:bg-forest-800 text-white font-semibold px-8 py-4 rounded-xl transition-all shadow-lg">
+          Request a Free Estimate
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 md:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div class="fade-up">
+          <span class="inline-block text-timber-600 font-semibold text-sm tracking-widest uppercase mb-3">About Us</span>
+          <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">Local &amp; Reliable. <br><span class="gold-text">That's Our Promise.</span></h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-6">
+            Ridge Runner Timber & Tree LLC is a locally owned and operated tree service company proudly serving the Springfield, Missouri area and surrounding communities. We bring honest work, fair pricing, and professional results to every job.
+          </p>
+          <p class="text-gray-600 leading-relaxed mb-8">
+            Whether it's a single tree that needs trimming or a full property that needs clearing, we have the experience, equipment, and dedication to handle it. Our crew takes pride in leaving every job site cleaner than we found it, and our customers' satisfaction is what drives us.
+          </p>
+
+          <div class="grid grid-cols-2 gap-6">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 bg-forest-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-5 h-5 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Honest Service</h4>
+                <p class="text-sm text-gray-500 mt-0.5">No hidden fees or surprise charges</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 bg-forest-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-5 h-5 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Fair Pricing</h4>
+                <p class="text-sm text-gray-500 mt-0.5">Competitive rates for quality work</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 bg-forest-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-5 h-5 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Fully Equipped</h4>
+                <p class="text-sm text-gray-500 mt-0.5">Professional-grade equipment for any job</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 bg-forest-50 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-5 h-5 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Clean Job Sites</h4>
+                <p class="text-sm text-gray-500 mt-0.5">We leave your property spotless</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About Visual -->
+        <div class="fade-up">
+          <div class="relative">
+            <div class="bg-forest-800 rounded-3xl p-10 text-white">
+              <div class="space-y-8">
+                <div class="flex items-center gap-4">
+                  <div class="w-16 h-16 bg-timber-500 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  </div>
+                  <div>
+                    <div class="text-3xl font-display font-bold">24/7</div>
+                    <div class="text-white/60 text-sm">Emergency Response</div>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4">
+                  <div class="w-16 h-16 bg-timber-500 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+                  </div>
+                  <div>
+                    <div class="text-3xl font-display font-bold">5.0</div>
+                    <div class="text-white/60 text-sm">Google Star Rating</div>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4">
+                  <div class="w-16 h-16 bg-timber-500 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                  </div>
+                  <div>
+                    <div class="text-3xl font-display font-bold">100%</div>
+                    <div class="text-white/60 text-sm">Fully Insured</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-timber-500/10 rounded-3xl -z-10"></div>
+            <div class="absolute -top-4 -left-4 w-16 h-16 bg-forest-500/10 rounded-2xl -z-10"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- We Buy Timber Section -->
+  <section id="timber" class="py-20 md:py-28 timber-gradient relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-timber-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-72 h-72 bg-forest-400/10 rounded-full blur-3xl"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div class="fade-up">
+          <span class="inline-flex items-center gap-2 bg-timber-500/20 border border-timber-500/30 rounded-full px-4 py-1.5 mb-6">
+            <svg class="w-4 h-4 text-timber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span class="text-timber-300 text-sm font-medium">Get Paid for Your Timber</span>
+          </span>
+          <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-6">We Buy Walnut &amp; Standing Timber</h2>
+          <p class="text-white/70 text-lg leading-relaxed mb-6">
+            Have walnut trees or standing timber on your property? We pay fair market prices for quality timber. Whether you have a single walnut tree or acres of hardwood, we'll give you an honest assessment and a fair offer.
+          </p>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center gap-3 text-white/80">
+              <div class="w-6 h-6 bg-timber-500 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              Walnut trees &amp; hardwoods
+            </li>
+            <li class="flex items-center gap-3 text-white/80">
+              <div class="w-6 h-6 bg-timber-500 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              Standing timber of all types
+            </li>
+            <li class="flex items-center gap-3 text-white/80">
+              <div class="w-6 h-6 bg-timber-500 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              Fair market pricing guaranteed
+            </li>
+            <li class="flex items-center gap-3 text-white/80">
+              <div class="w-6 h-6 bg-timber-500 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              Free on-site evaluations
+            </li>
+          </ul>
+          <a href="tel:+14175974745" class="inline-flex items-center gap-3 bg-timber-500 hover:bg-timber-600 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg shadow-timber-500/25 text-lg">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            Get a Timber Quote
+          </a>
+        </div>
+
+        <div class="fade-up">
+          <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-8 md:p-10">
+            <h3 class="text-white font-bold text-xl mb-6">How It Works</h3>
+            <div class="space-y-6">
+              <div class="flex gap-4">
+                <div class="w-10 h-10 bg-timber-500 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-white">1</div>
+                <div>
+                  <h4 class="text-white font-semibold">Call Us</h4>
+                  <p class="text-white/60 text-sm mt-1">Tell us about the timber on your property. We'll schedule a visit at your convenience.</p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div class="w-10 h-10 bg-timber-500 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-white">2</div>
+                <div>
+                  <h4 class="text-white font-semibold">Free Evaluation</h4>
+                  <p class="text-white/60 text-sm mt-1">We'll come out, assess your timber, and give you a fair, no-obligation quote on the spot.</p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div class="w-10 h-10 bg-timber-500 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-white">3</div>
+                <div>
+                  <h4 class="text-white font-semibold">Get Paid</h4>
+                  <p class="text-white/60 text-sm mt-1">Accept the offer, and we handle the rest. Professional harvesting with respect for your property.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-20 md:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-up">
+        <span class="inline-block text-timber-600 font-semibold text-sm tracking-widest uppercase mb-3">Why Ridge Runner</span>
+        <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">Built on Trust. <span class="gold-text">Driven by Results.</span></h2>
+        <p class="text-gray-500 text-lg">We're not the biggest, but we're the hardest working crew in Southwest Missouri. Here's why our customers keep coming back.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center fade-up">
+          <div class="w-20 h-20 bg-gradient-to-br from-forest-600 to-forest-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-forest-600/20">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-xl mb-3">Fast Response</h3>
+          <p class="text-gray-500 leading-relaxed">When a storm takes down a tree at 2 AM, we answer the phone. 24/7 emergency service means you're never left waiting with a dangerous situation.</p>
+        </div>
+        <div class="text-center fade-up">
+          <div class="w-20 h-20 bg-gradient-to-br from-timber-500 to-timber-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-timber-500/20">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-xl mb-3">Safety First</h3>
+          <p class="text-gray-500 leading-relaxed">Tree work is dangerous. Our crew follows proper safety protocols on every job, and we're fully insured to protect both our team and your property.</p>
+        </div>
+        <div class="text-center fade-up">
+          <div class="w-20 h-20 bg-gradient-to-br from-forest-600 to-forest-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-forest-600/20">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-xl mb-3">Community Focused</h3>
+          <p class="text-gray-500 leading-relaxed">We live and work in the same communities we serve. Our reputation matters to us, and we earn it one job at a time with quality work and honest dealings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas -->
+  <section id="areas" class="py-20 md:py-28 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div class="fade-up">
+          <span class="inline-block text-timber-600 font-semibold text-sm tracking-widest uppercase mb-3">Coverage Area</span>
+          <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">Serving Southwest Missouri</h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Ridge Runner Timber & Tree LLC proudly serves Springfield and the entire Southwest Missouri region. No matter where you are in our service area, we'll come to you.
+          </p>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="flex items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-sm">
+              <svg class="w-5 h-5 text-forest-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-gray-800 font-medium text-sm">Springfield</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-sm">
+              <svg class="w-5 h-5 text-forest-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-gray-800 font-medium text-sm">Nixa</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-sm">
+              <svg class="w-5 h-5 text-forest-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-gray-800 font-medium text-sm">Branson</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-sm">
+              <svg class="w-5 h-5 text-forest-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-gray-800 font-medium text-sm">Ozark</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-sm">
+              <svg class="w-5 h-5 text-forest-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-gray-800 font-medium text-sm">Republic</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-sm">
+              <svg class="w-5 h-5 text-forest-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-gray-800 font-medium text-sm">Bolivar</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-sm">
+              <svg class="w-5 h-5 text-forest-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-gray-800 font-medium text-sm">Rogersville</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-sm">
+              <svg class="w-5 h-5 text-forest-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-gray-800 font-medium text-sm">& Surrounding Areas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="fade-up">
+          <div class="bg-forest-800 rounded-3xl p-8 md:p-10 text-center">
+            <div class="w-20 h-20 bg-forest-700 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-10 h-10 text-timber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <h3 class="text-white font-bold text-2xl mb-2">Springfield, MO</h3>
+            <p class="text-white/60 mb-6">& All of Southwest Missouri</p>
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-left space-y-4">
+              <div class="flex items-center gap-3 text-white/80">
+                <svg class="w-5 h-5 text-timber-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                <span>(417) 597-4745</span>
+              </div>
+              <div class="flex items-center gap-3 text-white/80">
+                <svg class="w-5 h-5 text-timber-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <span>Open 24 Hours</span>
+              </div>
+              <div class="flex items-center gap-3 text-white/80">
+                <svg class="w-5 h-5 text-timber-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                <span>Free Estimates Available</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="py-20 md:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16 fade-up">
+        <span class="inline-block text-timber-600 font-semibold text-sm tracking-widest uppercase mb-3">Customer Reviews</span>
+        <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4">What Our Customers Say</h2>
+        <div class="flex items-center justify-center gap-3 mt-4">
+          <div class="flex text-timber-500">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <span class="text-gray-600 font-semibold">5.0 out of 5</span>
+          <span class="text-gray-400">|</span>
+          <span class="text-gray-500">Based on Google Reviews</span>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 rounded-2xl p-8 fade-up">
+          <div class="flex text-timber-500 mb-4">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-gray-600 leading-relaxed mb-6">"Called them for an emergency tree removal after a storm knocked a big oak onto our fence. They were out within hours and had everything cleaned up the same day. Incredibly professional and fair price."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-forest-600 rounded-full flex items-center justify-center text-white font-bold text-sm">M</div>
+            <div>
+              <div class="font-semibold text-gray-900 text-sm">Local Homeowner</div>
+              <div class="text-gray-400 text-xs">Springfield, MO</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-8 fade-up">
+          <div class="flex text-timber-500 mb-4">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-gray-600 leading-relaxed mb-6">"Had several large trees that needed to come down before building our new shop. Ridge Runner came out, gave a fair quote, and had the lot cleared in two days. They even bought some of the walnut timber. Great guys to work with."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-timber-500 rounded-full flex items-center justify-center text-white font-bold text-sm">R</div>
+            <div>
+              <div class="font-semibold text-gray-900 text-sm">Property Owner</div>
+              <div class="text-gray-400 text-xs">Nixa, MO</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-8 fade-up">
+          <div class="flex text-timber-500 mb-4">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-gray-600 leading-relaxed mb-6">"We've used Ridge Runner twice now — once for trimming and once for removing a dead tree hanging over our house. Both times they showed up on time, did excellent work, and cleaned up everything. Highly recommend."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-forest-600 rounded-full flex items-center justify-center text-white font-bold text-sm">T</div>
+            <div>
+              <div class="font-semibold text-gray-900 text-sm">Repeat Customer</div>
+              <div class="text-gray-400 text-xs">Ozark, MO</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency CTA -->
+  <section class="py-16 md:py-20 bg-forest-900 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-forest-900 via-forest-800 to-forest-900"></div>
+    <div class="absolute top-0 right-0 w-96 h-96 bg-timber-500/5 rounded-full blur-3xl"></div>
+
+    <div class="relative max-w-4xl mx-auto px-6 text-center">
+      <div class="inline-flex items-center gap-2 bg-red-500/20 border border-red-500/30 rounded-full px-4 py-1.5 mb-6">
+        <span class="w-2 h-2 bg-red-400 rounded-full animate-pulse"></span>
+        <span class="text-red-300 text-sm font-medium">Emergency Tree Service</span>
+      </div>
+      <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4">Tree Emergency? We're Here 24/7.</h2>
+      <p class="text-white/60 text-lg mb-10 max-w-xl mx-auto">Storm damage, fallen trees, or dangerous limbs — don't wait. Call us now and we'll be there as fast as possible.</p>
+      <a href="tel:+14175974745" class="inline-flex items-center gap-3 bg-timber-500 hover:bg-timber-600 text-white font-bold px-10 py-5 rounded-xl transition-all text-xl cta-pulse shadow-lg shadow-timber-500/25">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        Call (417) 597-4745 Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="py-20 md:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-16">
+        <div class="fade-up">
+          <span class="inline-block text-timber-600 font-semibold text-sm tracking-widest uppercase mb-3">Get in Touch</span>
+          <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">Request Your Free Estimate</h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Fill out the form and we'll get back to you as soon as possible. For immediate assistance, give us a call — we're available around the clock.
+          </p>
+
+          <div class="space-y-6">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm text-gray-500">Call Us Anytime</div>
+                <a href="tel:+14175974745" class="text-lg font-bold text-gray-900 hover:text-forest-600 transition-colors">(417) 597-4745</a>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm text-gray-500">Hours</div>
+                <div class="text-lg font-bold text-gray-900">Open 24 Hours — 7 Days a Week</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 bg-forest-50 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-forest-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              </div>
+              <div>
+                <div class="text-sm text-gray-500">Service Area</div>
+                <div class="text-lg font-bold text-gray-900">Springfield, MO &amp; Surrounding Areas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="fade-up">
+          <form id="contact-form" class="bg-gray-50 rounded-2xl p-8 md:p-10 space-y-5">
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div>
+                <label for="name" class="block text-sm font-medium text-gray-700 mb-1.5">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="John Smith" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-gray-900 placeholder-gray-400 transition-all">
+              </div>
+              <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1.5">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required placeholder="(417) 555-0123" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-gray-900 placeholder-gray-400 transition-all">
+              </div>
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700 mb-1.5">Email (Optional)</label>
+              <input type="email" id="email" name="email" placeholder="john@email.com" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-gray-900 placeholder-gray-400 transition-all">
+            </div>
+            <div>
+              <label for="service" class="block text-sm font-medium text-gray-700 mb-1.5">Service Needed</label>
+              <select id="service" name="service" required class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-gray-900 transition-all">
+                <option value="" disabled selected>Select a service...</option>
+                <option value="tree-trimming">Tree Trimming &amp; Pruning</option>
+                <option value="tree-removal">Tree Removal</option>
+                <option value="storm-cleanup">Storm Damage Cleanup</option>
+                <option value="land-clearing">Land Clearing</option>
+                <option value="logging">Logging</option>
+                <option value="stump-grinding">Stump Grinding</option>
+                <option value="landscaping">Landscaping</option>
+                <option value="bulldozing">Bulldozing</option>
+                <option value="timber-buying">Sell Timber</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700 mb-1.5">Tell Us About Your Project</label>
+              <textarea id="message" name="message" rows="4" placeholder="Describe what you need help with..." class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-gray-900 placeholder-gray-400 transition-all resize-none"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-forest-700 hover:bg-forest-800 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg shadow-lg shadow-forest-700/20">
+              Send Free Estimate Request
+            </button>
+            <p class="text-center text-gray-400 text-xs">We typically respond within 1 business day. For emergencies, call us directly.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-forest-950 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <!-- Company Info -->
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 bg-timber-500 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 3v2M15 3v2"/></svg>
+            </div>
+            <div class="leading-tight">
+              <span class="text-white font-bold text-lg tracking-tight block">Ridge Runner</span>
+              <span class="text-timber-400 text-xs font-medium tracking-widest uppercase">Timber & Tree LLC</span>
+            </div>
+          </div>
+          <p class="text-white/50 leading-relaxed max-w-md mb-6">
+            Professional tree service, timber buying, logging, and land clearing for Southwest Missouri. Fair prices, honest service, and reliable results since day one.
+          </p>
+          <a href="tel:+14175974745" class="inline-flex items-center gap-2 text-timber-400 hover:text-timber-300 font-semibold transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            (417) 597-4745
+          </a>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-bold text-white mb-6 text-sm tracking-widest uppercase">Quick Links</h4>
+          <ul class="space-y-3">
+            <li><a href="#services" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Services</a></li>
+            <li><a href="#about" class="text-white/50 hover:text-timber-400 transition-colors text-sm">About Us</a></li>
+            <li><a href="#timber" class="text-white/50 hover:text-timber-400 transition-colors text-sm">We Buy Timber</a></li>
+            <li><a href="#areas" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Service Areas</a></li>
+            <li><a href="#reviews" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Reviews</a></li>
+            <li><a href="#contact" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="font-bold text-white mb-6 text-sm tracking-widest uppercase">Services</h4>
+          <ul class="space-y-3">
+            <li><a href="#services" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Tree Trimming</a></li>
+            <li><a href="#services" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Tree Removal</a></li>
+            <li><a href="#services" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Storm Cleanup</a></li>
+            <li><a href="#services" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Land Clearing</a></li>
+            <li><a href="#services" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Logging</a></li>
+            <li><a href="#timber" class="text-white/50 hover:text-timber-400 transition-colors text-sm">Sell Your Timber</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p class="text-white/30 text-sm">&copy; 2025 Ridge Runner Timber & Tree LLC. All rights reserved.</p>
+        <p class="text-white/30 text-sm">Springfield, MO &amp; Surrounding Areas</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky CTA -->
+  <div class="fixed bottom-0 left-0 right-0 bg-forest-950/95 backdrop-blur-sm border-t border-forest-800 p-3 sm:hidden z-50">
+    <a href="tel:+14175974745" class="flex items-center justify-center gap-2 bg-timber-500 text-white font-bold py-3.5 px-6 rounded-xl w-full text-lg">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+      Call (417) 597-4745
+    </a>
+  </div>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('nav-scrolled');
+      } else {
+        navbar.classList.remove('nav-scrolled');
+      }
+    });
+
+    // Scroll animations
+    const fadeElements = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, index * 100);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    fadeElements.forEach(el => observer.observe(el));
+
+    // Form submission
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('button[type="submit"]');
+      const originalText = btn.textContent;
+      btn.textContent = 'Message Sent!';
+      btn.classList.remove('bg-forest-700', 'hover:bg-forest-800');
+      btn.classList.add('bg-green-600');
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.classList.add('bg-forest-700', 'hover:bg-forest-800');
+        btn.classList.remove('bg-green-600');
+        this.reset();
+      }, 3000);
+    });
+  </script>
+
+</body>
+</html>
